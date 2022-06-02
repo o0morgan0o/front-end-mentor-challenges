@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+}
+#hero-image{
+    /*max-height: 40vh;*/
+}
+
+.nav-element{
+    @apply text-almostblack ml-12 hidden md:flex;
+}
+
+.brand-icon{
+    @apply mr-12;
+}

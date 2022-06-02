@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    min-height: 100vh;
+}
+
+.calendar-day{
+    @apply text-center text-brownpale ;
+}
+
+.bar-amount{
+    @apply rounded-md min-w-[40px];
+}
+
+.bar-amount-special{
+    @apply bg-oceanblue;
+}
